@@ -4,25 +4,24 @@ using namespace std;
 
 int main(){
     string value;
-    cin >> value;
+    int caseNumber = 1;
 
-    int i = 0;
-    string array[i];
+    while(cin >> value){
+        if(value == "*"){
+            break;
+        }
+        
+        if(value == "Hajj"){
+            cout << "Case " << caseNumber << ": Hajj-e-Akbar\n";
+        }else if(value == "Umrah"){
+            cout << "Case " << caseNumber << ": Hajj-e-Asghar\n";
+        }
 
-    while(value != "*" && (value == "Hajj" || value == "Umrah")){
-        array[i] = value;
-        cin >> value;
-        i++;
+        caseNumber++;
         
     }
 
-    for(int j = 0; j < i; j++){
-        if(array[j] == "Hajj"){
-            cout << "Case " << j+1 << ": " << "Hajj-e-Akbar \n";
-        }else if(array[j] == "Umrah"){
-            cout << "Case " << j+1 << ": " << "Hajj-e-Asghar \n";
-        }
-    }
+
 
     return 0;
 }
