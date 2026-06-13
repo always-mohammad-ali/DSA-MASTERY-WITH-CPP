@@ -12,7 +12,7 @@ int main(){
     }
     
     int totalStudentAppeared = 0;
-    int totalPassedPercentage = 0;
+    double totalPassedPercentage = 0;
 
     for(int i = 0; i < t; i++){
  
@@ -20,9 +20,9 @@ int main(){
          totalPassedPercentage = (array[i][2] * 100.0) / totalStudentAppeared;
 
           if(totalPassedPercentage > 50){
-            cout << "YES" << "\n";
+            cout << "YES\n";
           }else{
-            cout << "NO" << "\n";
+            cout << "NO\n";
           } 
       
     }
