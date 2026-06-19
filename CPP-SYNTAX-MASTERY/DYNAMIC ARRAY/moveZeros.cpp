@@ -7,12 +7,17 @@ int main(){
     vector<int> nums = {0, 3, 0, 5};
 
     int i = 0;
-    int count = 0;
+    
+    int n = nums.size();
 
-    while(i < nums.size()){
+    while(i < n){
         if(nums[i] == 0){
+            int zero = nums[i];
             nums.erase(nums.begin()+i);
-            count++;
+            nums.push_back(zero);
+
+            n--;
+
         }else{
             i++;
         }
