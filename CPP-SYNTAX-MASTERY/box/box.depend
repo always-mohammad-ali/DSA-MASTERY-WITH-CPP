@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1782374352 source:/home/mohammad/DSA-MASTERY-WITH-CPP/CPP-SYNTAX-MASTERY/box/main.cpp
+	"Boxx.h"
+	<iostream>
+	<string>
+
+1782374281 /home/mohammad/DSA-MASTERY-WITH-CPP/CPP-SYNTAX-MASTERY/box/include/Boxx.h
+	<string>
+

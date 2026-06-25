@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1782371761 source:/home/mohammad/DSA-MASTERY-WITH-CPP/CPP-SYNTAX-MASTERY/classObject/src/Box.cpp
+	"Box.h"
+	<iostream>
+
+1782371761 /home/mohammad/DSA-MASTERY-WITH-CPP/CPP-SYNTAX-MASTERY/classObject/include/Box.h
+
